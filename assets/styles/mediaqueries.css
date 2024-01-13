@@ -1,0 +1,29 @@
+@media screen and (max-width: 426px) {
+  #portfolio {
+    background-image: none;
+    .card-text {
+      display: none !important;
+    }
+
+    .featured {
+      margin-bottom: 5rem !important;
+    }
+  }
+}
+@media screen and (max-width: 726px) {
+  #portfolio {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-title {
+    text-align: center;
+  }
+}
